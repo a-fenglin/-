@@ -1,0 +1,7 @@
+import requests
+data={
+    'b':2
+    }
+
+r = requests.post('http://111.198.29.45:50733/?a=1',data=data)
+print(r.text)
